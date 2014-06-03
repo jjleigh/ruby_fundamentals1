@@ -7,4 +7,6 @@ puts "ok, whats your age?"
 
 age = gets.chomp
 
-puts "so you are #{age} years young"
+year = 2014 - age.to_i
+
+puts "so you were born in #{year}"
